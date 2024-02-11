@@ -4,6 +4,7 @@ const buyPage = document.querySelector(".buy-page");
 const productBtn = document.querySelector(".product-btn");
 const close = document.querySelector(".close");
 const submit = document.querySelector(".submit");
+const form = document.querySelector("#form");
 const products = [
    {
       id: 1,
@@ -80,6 +81,9 @@ productBtn.addEventListener("click", () => {
 close.addEventListener("click", () => {
    buyPage.style.display = "none";
 });
-submit.addEventListener("click", () => {
+
+form.addEventListener("submit", (e) => {
+   e.preventDefault();
    buyPage.style.display = "none";
+   alert("Ordered is placed. Thank You");
 });

@@ -183,35 +183,48 @@
           </div>
           <button class="product-btn">Buy Now</button>
         </div>
-        <div class="buy-page">
-          <label class="buy-name">Name</label>
-          <input type="text" placeholder="Ram Khatri" class="name" />
-          <label class="buy-name">Address</label>
-          <input type="text" placeholder="Fulbari -11 Pokhara" class="name" />
-          <label class="buy-name">Date of Birth</label>
-          <input type="date" placeholder="Khatri" class="name" />
-          <div class="buy-phone">
-            <div>
-              <label class="buy-name">Phone number</label>
-              <input type="tel" placeholder="+9779800000000" class="name" />
-            </div>
-            <img
-              src="./img/master-card.png"
-              alt=""
-              width="120px"
-              height="50px"
-              class="master-card"
+        <form id="form">
+          <div class="buy-page">
+            <label class="buy-name">Name</label>
+            <input type="text" placeholder="Ram Khatri" class="name" required />
+            <label class="buy-name">Address</label>
+            <input
+              type="text"
+              placeholder="Fulbari -11 Pokhara"
+              class="name"
+              required
             />
+            <label class="buy-name">Date of Birth</label>
+            <input type="date" placeholder="Khatri" class="name" required />
+            <div class="buy-phone">
+              <div>
+                <label class="buy-name">Phone number</label>
+                <input
+                  type="tel"
+                  placeholder="+9779800000000"
+                  class="name"
+                  required
+                />
+              </div>
+              <img
+                src="./img/master-card.png"
+                alt=""
+                width="120px"
+                height="50px"
+                class="master-card"
+              />
+            </div>
+            <label class="card">Card details</label>
+            <input
+              type="password"
+              placeholder="xxxx-xxxx-xxxx-xxxx"
+              class="card-text"
+              required
+            />
+            <input type="Submit" class="submit" />
+            <h1 class="close">x</h1>
           </div>
-          <label class="card">Card details</label>
-          <input
-            type="password"
-            placeholder="xxxx-xxxx-xxxx-xxxx"
-            class="card-text"
-          />
-          <input type="Submit" class="submit" />
-          <h1 class="close">x</h1>
-        </div>
+        </form>
       </div>
     </section>
 

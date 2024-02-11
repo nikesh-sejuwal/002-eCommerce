@@ -1,0 +1,177 @@
+.search {
+   display: none;
+}
+
+.logo {
+   padding: 20px;
+   overflow: hidden;
+}
+
+.logoo {
+   width: 90px;
+   height: 35px;
+}
+
+.limit {
+   font-size: 16px;
+}
+
+.nav-lower {
+   gap: 20px;
+   padding: 15px;
+   flex-wrap: wrap;
+}
+
+.slider {
+   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
+}
+
+.wrap-item {
+   height: 80vh;
+}
+
+.round-bg {
+   width: 95%;
+   height: 75%;
+}
+
+.shoe {
+   width: 90%;
+}
+
+.shoe-title {
+   display: none;
+}
+
+.price {
+   left: 10px;
+   font-size: 20px;
+}
+.buy-btn {
+   font-size: 16px;
+   right: 20px;
+   bottom: 20px;
+   /* bottom: 18rem; */
+}
+
+.add-on-wrapper {
+   flex-direction: column;
+   padding: 20px;
+}
+
+.shipping {
+   width: 50px;
+   height: 30px;
+}
+
+.add-title {
+   font-size: 15px;
+}
+
+.add-para {
+   width: 50%;
+   font-size: 12px;
+   margin-bottom: 20px;
+}
+
+.product {
+   flex-direction: column;
+   clip-path: none;
+}
+.product-img {
+   width: 100%;
+}
+.product-title {
+   font-size: 35px;
+}
+.product-price {
+   font-size: 25px;
+}
+
+.p-size {
+   font-size: 20px;
+}
+.size {
+   font-size: 15px;
+}
+.product-btn {
+   padding: 5px 10px;
+   font-size: 15px;
+}
+.buy-page {
+   top: 10%;
+   right: 2%;
+   width: 95%;
+   /* height: 100%; */
+}
+.buy-name {
+   font-size: 16px;
+   font-weight: bold;
+   padding: 10px;
+}
+
+.name {
+   margin-left: 10px;
+   font-size: 12px;
+}
+
+.master-card {
+   margin: 10px;
+}
+
+.card {
+   font-size: 15px;
+}
+.card-text {
+   padding: 5px;
+   margin-left: 10px;
+   font-size: 14px;
+}
+
+#gallery {
+   display: inline;
+}
+
+.season-container {
+   /* display: inline; */
+   flex-direction: column;
+}
+.title-1 {
+   /* display: none; */
+   font-size: 20px;
+   margin-top: 30px;
+}
+.title-2 {
+   /* display: none; */
+   font-size: 20px;
+}
+
+.title-btn {
+   padding: 5px 10px;
+
+   font-size: 15px;
+   text-transform: uppercase;
+   margin-bottom: 30px;
+}
+
+#footer {
+   display: flex;
+   flex-direction: column;
+}
+
+.footer-left {
+   padding: 30px;
+}
+
+.f-title {
+   font-size: 14px;
+}
+
+.f-list {
+   font-size: 13px;
+}
+
+.footer-right {
+   padding-left: 30px;
+   margin-bottom: 20px;
+}

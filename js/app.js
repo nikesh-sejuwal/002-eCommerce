@@ -9,31 +9,31 @@ const products = [
       id: 1,
       title: "Air force",
       price: "199",
-      img: "../img/shoes4.png",
+      img: "./img/shoes4.png",
    },
    {
       id: 2,
       title: "Jordan",
       price: "299",
-      img: "../img/shoes1.png",
+      img: "./img/shoes1.png",
    },
    {
       id: 3,
       title: "Blazer",
       price: "149",
-      img: "../img/shoes2.png",
+      img: "./img/shoes2.png",
    },
    {
       id: 4,
       title: "Crater",
       price: "119",
-      img: "../img/shoes3.png",
+      img: "./img/shoes3.png",
    },
    {
       id: 5,
       title: "Hippie",
       price: "249",
-      img: "../img/shoes5.png",
+      img: "./img/shoes5.png",
    },
 ];
 

@@ -114,6 +114,9 @@
    text-transform: uppercase;
    margin-bottom: 30px;
 }
+#season {
+   display: none;
+}
 
 .footer-right {
    padding-left: 30px;

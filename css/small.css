@@ -131,7 +131,9 @@
 #gallery {
    display: inline;
 }
-
+#season {
+   display: none;
+}
 .season-container {
    /* display: inline; */
    flex-direction: column;
